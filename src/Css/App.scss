@@ -1,0 +1,74 @@
+@import "./PlayerCard";
+@import "./Stats";
+@import "./TeamCard";
+@import "./MediaQuery";
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+body{
+    background-color: #F8F8F8;
+}
+
+.Container{
+    background:white;
+    border-radius:30px;
+    padding: 1rem 1rem;
+    margin:3rem 3rem;
+    .text-upper{
+        margin-top:1rem;
+        padding-left:2rem;
+        color:#A29AF1;
+    }
+}
+
+
+.selected{
+    color:#21CD2D;
+    padding:1rem 1rem;;
+    .bold{
+        color:black;
+        font-weight: bold;
+
+    }
+    .light{
+        color:black;
+        font-weight: lighter;
+    }
+}
+
+.Winning-prediction{
+    padding: 1rem 1rem;
+    margin-top:0.5rem;
+    .winning-prediction{
+        color:#A29AF1;
+    }
+}
+.box-prediction{
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    .nation{
+        padding-left: 1rem;
+        color:#21CD2D;
+    }
+    .Prediction{
+        width:100%;
+        justify-content: flex-start;  
+    }
+    .Winner{
+        width:100%;
+        justify-content: flex-start;
+    }
+}
+
+.team-card{
+    margin-top:2rem;
+    border-top: 2px solid rgba(0,0,0,0.19);
+    .team-card-heading{
+        color:#A29AF1;
+        margin: 3rem 0rem; 
+        padding: 1rem 1.5rem;
+    }
+}

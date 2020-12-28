@@ -1,0 +1,501 @@
+@media (max-width: 1386px){
+    body{
+        // display: none;
+        font-size:18px;
+    }
+
+
+    .App{
+        flex-wrap:wrap;
+       
+    }
+    .PlayerName{
+
+        margin:0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+        h1{
+            font-size: 30px;
+            font-weight:bold;
+            padding: 0rem 0.5rem;
+        }
+        h3{
+        
+            font-weight:lighter;
+            font-size:30px;
+            padding: 0rem 0.5rem;
+        }
+    
+    }
+    .Nation{
+        color:blue;
+        justify-content: flex-end;
+        width:100%;
+        padding: 0rem 1rem;
+        margin-bottom:2rem;
+    }
+    
+}
+@media (max-width:1387px){
+    .flex-1{
+        flex-direction: column;
+    }
+    body{
+        // display: none;
+        font-size:10px;
+        
+    }
+    .selected{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .App{
+        flex-wrap:wrap;
+        
+    }
+    .PlayerName{
+
+        margin:0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+        h1{
+            font-size: 20px;
+            font-weight:bold;
+            padding: 0rem 0.5rem;
+        }
+        h3{
+        
+            font-weight:lighter;
+            font-size:20px;
+            padding: 0rem 0.5rem;
+        }
+    
+    }
+    .Nation{
+        color:blue;
+        justify-content: flex-end;
+        width:100%;
+        padding: 0rem 1rem;
+        margin-bottom:2rem;
+    }
+    .Container{
+        width:100%;
+        background:white;
+        border-radius:30px;
+        padding: 1rem 1rem;
+        margin:3rem 3rem;
+        .text-upper{
+            margin-top:1rem;
+            padding-left:2rem;
+            color:#A29AF1;
+        }
+    }
+    .playerCard{
+        width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 2rem 2rem;
+        border-radius: 10px;
+        
+    }
+    .Team-Card{
+    
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top:1.5rem;
+        padding: 1rem 1.8rem;
+        border-radius: 30px ;
+    }
+    .Team{
+        
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        font-weight: bolder;
+        
+    }
+    .result-1{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        .prediction-result{
+            margin-right:1rem;
+            flex-direction: column;
+       
+        
+        }
+    }
+    .result-2{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+       
+        .prediction-result-1{
+           
+            flex-direction: column;
+            margin-right:1rem;
+        }
+    }
+    .Winning-prediction{
+        display:flex;
+        flex-direction: column;
+      justify-content: space-around;
+       align-items: center;
+    }
+
+}
+
+
+@media (max-width: 747px){
+
+    .flex-1{
+        flex-direction: column;
+    }
+    body{
+        // display: none;
+        font-size:10px;
+        
+    }
+    .selected{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .App{
+        flex-wrap:wrap;
+        
+    }
+    .PlayerName{
+
+        margin:0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+        h1{
+            font-size: 20px;
+            font-weight:bold;
+            padding: 0rem 0.5rem;
+        }
+        h3{
+        
+            font-weight:lighter;
+            font-size:20px;
+            padding: 0rem 0.5rem;
+        }
+    
+    }
+    .Nation{
+        color:blue;
+        justify-content: flex-end;
+        width:100%;
+        padding: 0rem 1rem;
+        margin-bottom:2rem;
+    }
+    .Container{
+        width:100%;
+        background:white;
+        border-radius:30px;
+        padding: 1rem 1rem;
+        margin:3rem 3rem;
+        .text-upper{
+            margin-top:1rem;
+            padding-left:2rem;
+            color:#A29AF1;
+        }
+    }
+    .playerCard{
+        width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 2rem 2rem;
+        border-radius: 10px;
+        
+    }
+    .Team-Card{
+    
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top:1.5rem;
+        padding: 1rem 1.8rem;
+        border-radius: 30px ;
+    }
+    .Team{
+        
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        font-weight: bolder;
+        
+    }
+    .result-1{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        .prediction-result{
+            margin-right:1rem;
+            flex-direction: column;
+       
+        
+        }
+    }
+    .result-2{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+       
+        .prediction-result-1{
+           
+            flex-direction: column;
+            margin-right:1rem;
+        }
+    }
+    .Winning-prediction{
+        display:flex;
+        flex-direction: column;
+      justify-content: space-around;
+       align-items: center;
+    }
+
+}
+
+
+
+@media (max-width:588px){
+
+    .flex-1{
+        flex-direction: column;
+    }
+    body{
+        // display: none;
+        font-size:10px;
+        
+    }
+    .selected{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .App{
+        flex-wrap:wrap;
+        
+    }
+    .PlayerName{
+
+        margin:0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+        h1{
+            font-size: 20px;
+            font-weight:bold;
+            padding: 0rem 0.5rem;
+        }
+        h3{
+        
+            font-weight:lighter;
+            font-size:20px;
+            padding: 0rem 0.5rem;
+        }
+    
+    }
+    .Nation{
+        color:blue;
+        justify-content: flex-end;
+        width:100%;
+        padding: 0rem 1rem;
+        margin-bottom:2rem;
+    }
+    .Container{
+        // width:50%;
+        background:white;
+        border-radius:30px;
+        padding: 1rem 1rem;
+        margin:3rem 3rem;
+        .text-upper{
+            margin-top:1rem;
+            padding-left:2rem;
+            color:#A29AF1;
+        }
+    }
+    .playerCard{
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 2rem 2rem;
+        border-radius: 10px;
+        
+    }
+    .Team-Card{
+    
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top:1.5rem;
+        padding: 1rem 1.8rem;
+        border-radius: 30px ;
+    }
+    .Team{
+        
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        font-weight: bolder;
+        
+    }
+    .result-1{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        .prediction-result{
+            margin-right:1rem;
+            flex-direction: column;
+       
+        
+        }
+    }
+    .result-2{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+       
+        .prediction-result-1{
+           
+            flex-direction: column;
+            margin-right:1rem;
+        }
+    }
+    .Winning-prediction{
+        display:flex;
+        flex-direction: column;
+      justify-content: space-around;
+       align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 426px){
+    .selected{
+        display: block;
+      text-align: center; 
+    }
+}
+
+
+
+
+
+@media (max-width: 360px){
+
+    body{
+        // display: none;
+        font-size:10px;
+        
+    }
+    .selected{
+        display: block;
+       text-align: center;
+    }
+
+    .App{
+        flex-wrap:wrap;
+        
+    }
+    .PlayerName{
+
+        margin:0.5rem 0.5rem;
+        padding: 0.5rem 0.5rem;
+        h1{
+            font-size: 20px;
+            font-weight:bold;
+            padding: 0rem 0.5rem;
+        }
+        h3{
+        
+            font-weight:lighter;
+            font-size:20px;
+            padding: 0rem 0.5rem;
+        }
+    
+    }
+    .Nation{
+        color:blue;
+        justify-content: flex-end;
+        width:100%;
+        padding: 0rem 1rem;
+        margin-bottom:2rem;
+    }
+    .Container{
+        width:100%;
+        background:white;
+        border-radius:30px;
+        padding: 1rem 1rem;
+        margin:3rem 3rem;
+        .text-upper{
+            margin-top:1rem;
+            padding-left:2rem;
+            color:#A29AF1;
+        }
+    }
+    .playerCard{
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 2rem 2rem;
+        border-radius: 10px;
+        
+    }
+    .Team-Card{
+    
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top:1.5rem;
+        padding: 1rem 1.8rem;
+        border-radius: 30px ;
+    }
+    .Team{
+        
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        font-weight: bolder;
+        
+    }
+    .result-1{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+        border-right: 1px solid rgba(0, 0, 0, 0.19);
+        text-align: center;
+        .prediction-result{
+            margin-right:1rem;
+            flex-direction: column;
+       
+        
+        }
+    }
+    .result-2{
+        width:50%;
+        font-size: 5px;
+        padding: 1rem;
+       
+        .prediction-result-1{
+           
+            flex-direction: column;
+            margin-right:1rem;
+        }
+    }
+    .Winning-prediction{
+        display:flex;
+        flex-direction: column;
+      justify-content: space-around;
+       align-items: center;
+    }
+}

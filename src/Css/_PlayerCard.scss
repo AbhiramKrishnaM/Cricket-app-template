@@ -1,0 +1,47 @@
+.flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.playerCard{
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    
+}
+.PlayerName{
+
+    margin:0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+    h1{
+        font-size: 50px;
+        font-weight:bold;
+        padding: 0rem 0.5rem;
+    }
+    h3{
+    
+        font-weight:lighter;
+        font-size:50px;
+        padding: 0rem 0.5rem;
+    }
+
+}
+
+.Nation{
+    color:blue;
+    justify-content: flex-end;
+    width:100%;
+    padding: 0rem 1rem;
+    margin-bottom:4rem;
+}
+
+.Stats-card{
+    display: flex;
+    flex-direction: column;
+}

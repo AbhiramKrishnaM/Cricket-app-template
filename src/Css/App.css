@@ -1,0 +1,775 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.playerCard {
+  width: 23%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2rem 2rem;
+  border-radius: 10px;
+}
+
+.PlayerName {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.PlayerName h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0rem 0.5rem;
+}
+
+.PlayerName h3 {
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0rem 0.5rem;
+}
+
+.Nation {
+  color: blue;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  padding: 0rem 1rem;
+  margin-bottom: 4rem;
+}
+
+.Stats-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Stats {
+  padding: 0rem 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.5));
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.key-color {
+  color: white;
+}
+
+.Stats-key {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 1rem;
+}
+
+.Stats-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1rem 1rem;
+}
+
+h4 {
+  padding: 0.5rem 0rem;
+  color: #11e011;
+}
+
+.Team-Card {
+  width: 100%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 1.5rem;
+  padding: 1.2rem 1rem;
+  border-radius: 50px;
+}
+
+.Team {
+  width: 50%;
+  padding: 1.2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.19);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.result-1 {
+  width: 50%;
+  font-size: 8px;
+  padding: 1.2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.result-1 .prediction-result {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.green {
+  color: #21CD2D;
+}
+
+.result-2 {
+  width: 50%;
+  font-size: 8px;
+  padding: 1.2rem;
+}
+
+.result-2 .prediction-result-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media (max-width: 1386px) {
+  body {
+    font-size: 18px;
+  }
+  .App {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .PlayerName {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .PlayerName h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+  }
+  .PlayerName h3 {
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 0rem 0.5rem;
+  }
+  .Nation {
+    color: blue;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1387px) {
+  .flex-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body {
+    font-size: 10px;
+  }
+  .selected {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .App {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .PlayerName {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .PlayerName h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+  }
+  .PlayerName h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0rem 0.5rem;
+  }
+  .Nation {
+    color: blue;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .Container {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    margin: 3rem 3rem;
+  }
+  .Container .text-upper {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    color: #A29AF1;
+  }
+  .playerCard {
+    width: 40%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+  }
+  .Team-Card {
+    width: 100%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+  }
+  .Team {
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-weight: bolder;
+  }
+  .result-1 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .result-1 .prediction-result {
+    margin-right: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .result-2 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+  }
+  .result-2 .prediction-result-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 1rem;
+  }
+  .Winning-prediction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 747px) {
+  .flex-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body {
+    font-size: 10px;
+  }
+  .selected {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .App {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .PlayerName {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .PlayerName h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+  }
+  .PlayerName h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0rem 0.5rem;
+  }
+  .Nation {
+    color: blue;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .Container {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    margin: 3rem 3rem;
+  }
+  .Container .text-upper {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    color: #A29AF1;
+  }
+  .playerCard {
+    width: 40%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+  }
+  .Team-Card {
+    width: 100%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+  }
+  .Team {
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-weight: bolder;
+  }
+  .result-1 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .result-1 .prediction-result {
+    margin-right: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .result-2 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+  }
+  .result-2 .prediction-result-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 1rem;
+  }
+  .Winning-prediction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 588px) {
+  .flex-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body {
+    font-size: 10px;
+  }
+  .selected {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .App {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .PlayerName {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .PlayerName h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+  }
+  .PlayerName h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0rem 0.5rem;
+  }
+  .Nation {
+    color: blue;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .Container {
+    background: white;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    margin: 3rem 3rem;
+  }
+  .Container .text-upper {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    color: #A29AF1;
+  }
+  .playerCard {
+    width: 80%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+  }
+  .Team-Card {
+    width: 100%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+  }
+  .Team {
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-weight: bolder;
+  }
+  .result-1 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .result-1 .prediction-result {
+    margin-right: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .result-2 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+  }
+  .result-2 .prediction-result-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 1rem;
+  }
+  .Winning-prediction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 426px) {
+  .selected {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 10px;
+  }
+  .selected {
+    display: block;
+    text-align: center;
+  }
+  .App {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .PlayerName {
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .PlayerName h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0rem 0.5rem;
+  }
+  .PlayerName h3 {
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 0rem 0.5rem;
+  }
+  .Nation {
+    color: blue;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .Container {
+    width: 100%;
+    background: white;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    margin: 3rem 3rem;
+  }
+  .Container .text-upper {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    color: #A29AF1;
+  }
+  .playerCard {
+    width: 80%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+  }
+  .Team-Card {
+    width: 100%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1.5rem;
+    padding: 1rem 1.8rem;
+    border-radius: 30px;
+  }
+  .Team {
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-weight: bolder;
+  }
+  .result-1 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .result-1 .prediction-result {
+    margin-right: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .result-2 {
+    width: 50%;
+    font-size: 5px;
+    padding: 1rem;
+  }
+  .result-2 .prediction-result-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 1rem;
+  }
+  .Winning-prediction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+.Container {
+  background: white;
+  border-radius: 30px;
+  padding: 1rem 1rem;
+  margin: 3rem 3rem;
+}
+
+.Container .text-upper {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  color: #A29AF1;
+}
+
+.selected {
+  color: #21CD2D;
+  padding: 1rem 1rem;
+}
+
+.selected .bold {
+  color: black;
+  font-weight: bold;
+}
+
+.selected .light {
+  color: black;
+  font-weight: lighter;
+}
+
+.Winning-prediction {
+  padding: 1rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.Winning-prediction .winning-prediction {
+  color: #A29AF1;
+}
+
+.box-prediction {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.box-prediction .nation {
+  padding-left: 1rem;
+  color: #21CD2D;
+}
+
+.box-prediction .Prediction {
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.box-prediction .Winner {
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.team-card {
+  margin-top: 2rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.19);
+}
+
+.team-card .team-card-heading {
+  color: #A29AF1;
+  margin: 3rem 0rem;
+  padding: 1rem 1.5rem;
+}
+/*# sourceMappingURL=App.css.map */

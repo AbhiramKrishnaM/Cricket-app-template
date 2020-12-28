@@ -1,0 +1,29 @@
+.Stats{
+    padding: 0rem 0.5rem;
+    display: flex;
+    background:linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    }
+
+    .key-color{
+        color:white;
+    }
+    .Stats-key{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+    .Stats-value{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+        padding: 1rem 1rem;
+    }
+
+    h4{
+        padding:0.5rem 0rem;
+        color:rgb(17, 224, 17);
+    }
